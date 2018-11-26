@@ -12,7 +12,7 @@
     </div>
 <?php } else { ?>
     <div id="navbar">
-        <a href="index.php" id="logo">Camagru</a>
+        <a href="#" id="logo">Camagru</a>
         <div id="navbar-right">
             <a href="../gall.php">Gallery</a>
         </div>

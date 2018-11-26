@@ -38,7 +38,7 @@
                     $subject = "Reset";
                     $txt = "Password Changed ! please confirm by clicking on the link below.
                     http://localhost:8080/camagru/login/verify.php?username=$username";
-                    $headers = "From: sshayi@camagru.com" . "\r\n" .
+                    $headers = "From: lmkhwana@camagru.com" . "\r\n" .
                     "CC: somebodyelse@example.com";
                     
                     mail($to,$subject,$txt,$headers);
@@ -66,7 +66,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <link rel="stylesheet" type="text/css" href="style/style.css">
-    <link rel="stylesheet" type="text/css" href="style/navbar.css">
+
 </head>
 <body>
     <?php include '../views/header.php'; ?>

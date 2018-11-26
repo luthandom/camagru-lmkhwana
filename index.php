@@ -7,7 +7,6 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" type="text/css" href="style/style.css">
-    <link rel="stylesheet" type="text/css" href="style/navbar.css">
     <title>CAMAGRU</title>
 </head>
 <body>
@@ -72,7 +71,7 @@
             }
                 $db = null;
             ?>
-            <form id="capture-form" name="capture-form" method="post" action="saveCam.php">
+            <form id="capture-form" name="capture-form" method="post" action="save.php">
                 <input type="hidden" name="img" id="picture" value=""/>
             </form>
         </div>

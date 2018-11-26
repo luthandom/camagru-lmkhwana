@@ -93,7 +93,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <link rel="stylesheet" type="text/css" href="style/style.css">
-    <link rel="stylesheet" type="text/css" href="style/navbar.css">
+
 </head>
 <body>
     <?php include 'views/header.php'; ?>
